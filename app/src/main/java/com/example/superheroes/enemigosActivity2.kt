@@ -5,25 +5,25 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 
-class enemigosActivity2 : AppCompatActivity() {
+class EnemigosActivity2 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_enemigos2)
     }
 
-    fun openMain(view: View) {
+    fun openMain(@Suppress("UNUSED_PARAMETER")view: View) {
 
             val intent = Intent(this, MainActivity::class.java).apply {  }
             startActivity(intent)
 
     }
 
-    fun openForm(view: View) {
+    fun openForm(@Suppress("UNUSED_PARAMETER")view: View) {
         val intent = Intent(this, RegistroFormActivity::class.java).apply {  }
         startActivity(intent)
     }
 
-    fun openVehiculos(view: View) {
+    fun openVehiculos(@Suppress("UNUSED_PARAMETER")view: View) {
         val intent = Intent(this, VehiculosActivity3::class.java).apply {  }
         startActivity(intent)
     }

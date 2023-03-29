@@ -13,7 +13,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun openVillanos(@Suppress("UNUSED_PARAMETER")view: View) {
-        val intent = Intent(this, enemigosActivity2::class.java).apply {  }
+        val intent = Intent(this, EnemigosActivity2::class.java).apply {  }
         startActivity(intent)
     }
 

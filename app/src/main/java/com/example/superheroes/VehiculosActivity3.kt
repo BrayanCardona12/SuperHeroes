@@ -11,17 +11,17 @@ class VehiculosActivity3 : AppCompatActivity() {
         setContentView(R.layout.activity_vehiculos3)
     }
 
-    fun openVillanos(@Suppress("") view: View) {
-        val intent = Intent(this, enemigosActivity2::class.java).apply {  }
+    fun openVillanos(@Suppress("UNUSED_PARAMETER")view: View) {
+        val intent = Intent(this, EnemigosActivity2::class.java).apply {  }
         startActivity(intent)
     }
 
-    fun openMain(view: View) {
+    fun openMain(@Suppress("UNUSED_PARAMETER")view: View) {
         val intent = Intent(this, MainActivity::class.java).apply {  }
         startActivity(intent)
     }
 
-    fun openForm(view: View) {
+    fun openForm(@Suppress("UNUSED_PARAMETER")view: View) {
         val intent = Intent(this, RegistroFormActivity::class.java).apply {  }
         startActivity(intent)
     }
