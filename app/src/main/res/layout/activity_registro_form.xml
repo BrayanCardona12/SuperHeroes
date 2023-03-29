@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegistroFormActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/gray_200">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/gray_200"
+
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView15"
+                style="@style/titulo_texto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/titulo_Registro" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/button5"
+                    style="@style/btnDark"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:layout_weight="1"
+                    android:onClick="openMain"
+                    android:text="@string/btnMain"
+                    tools:ignore="UsingOnClickInXml" />
+
+
+                <Button
+                    android:id="@+id/button4"
+                    style="@style/btnLight"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="openVehiculos"
+                    android:text="@string/btnVehiculos"
+                    tools:ignore="UsingOnClickInXml" />
+
+                <Button
+                    android:id="@+id/btnMain"
+                    style="@style/btnDark"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="openVillanos"
+                    android:text="@string/btnVillanos"
+                    tools:ignore="UsingOnClickInXml" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/editTextTextPersonName5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:height="50dp"
+                    android:autofillHints="name"
+                    android:ems="10"
+                    android:hint="@string/hintNombre"
+                    android:inputType="textPersonName"
+
+style="@style/editTextStyles"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    tools:layout_editor_absoluteY="48dp" />
+
+                <EditText
+                    android:id="@+id/editTextTextPersonName6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:height="50dp"
+                    android:autofillHints="name"
+                    android:ems="10"
+                    android:hint="@string/hintDescription"
+                    android:inputType="textPersonName"
+                    android:textAllCaps="true"
+                    style="@style/editTextStyles"
+
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    tools:layout_editor_absoluteY="48dp" />
+
+                <EditText
+                    android:id="@+id/editTextTextPersonName7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:height="50dp"
+                    android:autofillHints="name"
+                    android:ems="10"
+                    android:hint="@string/hintHabilidad1"
+                    android:inputType="textPersonName"
+
+                    style="@style/editTextStyles"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    tools:layout_editor_absoluteY="48dp" />
+
+                <EditText
+                    android:id="@+id/editTextTextPersonName8"
+                    style="@style/editTextStyles"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:height="50dp"
+                    android:autofillHints="name"
+                    android:ems="10"
+                    android:hint="@string/hintHabilidad2"
+                    android:inputType="textPersonName"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    tools:layout_editor_absoluteY="48dp" />
+
+                <Button
+                    android:id="@+id/button7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/gray_400"
+                    android:text="@string/NomBtnregistro"
+                    tools:layout_editor_absoluteX="156dp"
+                    tools:layout_editor_absoluteY="378dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="33dp">
+
+                <ImageView
+                    android:id="@+id/imageView9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/imgRegistro"
+                    app:srcCompat="@drawable/batman" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

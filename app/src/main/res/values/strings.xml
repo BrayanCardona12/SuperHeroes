@@ -1,0 +1,52 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Super Heroes</string>
+    <string name="titulo2">Villanos</string>
+    <string name="titulo3">Super Vehiculos</string>
+
+    <string name="Name_super1">Iron Man</string>
+    <string name="Name_Super2">Capitan America</string>
+    <string name="Name_Super3">Flash</string>
+    <string name="Name_Super4">Super MAN</string>
+    <string name="Name_Super5">Batman</string>
+    <string name="Name_Super6">Thor</string>
+    <string name="Name_Super7">Mujer Maravilla</string>
+    <string name="Name_Super8">Acuaman</string>
+    <string name="Name_Super9">Ghost Rider</string>
+    <string name="Name_Super10">Spider Man</string>
+    <string name="Name_Super11">Robin</string>
+
+    <string name="Name_Vilano1">Darkseid</string>
+    <string name="Name_Villano2">Kang The Conqueror</string>
+    <string name="Name_Villano3">Thanos</string>
+
+    <string name="Descripcion1">"Iron Man (conocido en español como el Hombre de Hierro) fue un superhéroe que aparece en los cómics estadounidenses publicados por Marvel Comics nacido en Sofía, Bulgaria. El personaje fue cocreado por el escritor y editor Stan Lee y el guionista Larry Lieber. "</string>
+    <string name="Descripcion2">es un superhéroe de Marvel Comics que hizo su debut en el Universo Cinematográfico de Marvel en la película de Marvel de 2011, Captain America: The First Avenger. Hizo su segunda aparición en la película crossover del Universo Cinematográfico de Marvel de 2012</string>
+    <string name="Descripcion3">The Flash (Barry Allen) es un superhéroe ficticio que aparece en los cómics publicados por DC Comics. El personaje apareció por primera vez en Showcase # 4 (octubre de 1956), creado por el escritor Robert Kanigher y el dibujante Carmine Infantino.</string>
+    >
+    <string name="Descripcion4">Superman es un superhéroe que aparece en los cómics estadounidenses publicados por DC Comics . El personaje fue creado por el escritor Jerry Siegel y el artista Joe Shuster , y debutó en el cómic Action Comics #1 ( portada con fecha de junio de 1938 y publicada el 18 de abril de 1938). </string>>
+    <string name="Descripcion5" tools:ignore="Typos">Batman es un hombre alto, caucásico, tiene una figura oscura e imponente, posee con cabello negro corto y ojos marrones. Él lleva un traje gris oscuro con el símbolo negro de un murciélago, en medio de el pecho. Batman también usa una capucha negra que lo cubre en todo momento para ocultar su identidad.</string>
+    <string name="Descripcion6">Thor es un excelente combatiente cuerpo a cuerpo, así como también resulta hábil en el combate armado, sobresaliendo en el uso del martillo de guerra, la espada, el hacha y la maza. Thor posee dos objetos que lo ayudan en combate: el Cinturón de Fuerza encantado y su arma distintiva, el martillo místico Mjolnir.</string>
+
+    <string name="Villano_descripcion1">Darkseid ( / ˈ d ɑːr k s aɪ d / ) [5] es un supervillano que aparece en los cómics estadounidenses publicados por DC Comics . El personaje fue creado por el escritor y artista Jack Kirby para servir como el principal antagonista de su metaserie &quot; Cuarto mundo &quot; , y se vio por primera vez brevemente en Superman\'s Pal Jimmy Olsen # 134 en diciembre de 1970 antes de ser presentado oficialmente en el primer número de Forever People . </string>
+    <string name="Villano_descripcion2">Kang el Conquistador (Nathaniel Richards) es un supervillano ficticio que aparece en los cómics estadounidenses publicados por Marvel Comics. El personaje se representa con mayor frecuencia como un oponente de Los Vengadores, Los 4 Fantásticos, X-Men y a veces se une a los Seis Siniestros para atrapar al Hombre Araña.</string>
+    <string name="Villano_descripcion3">Thanos es un personaje ficticio interpretado principalmente por Josh Brolin a través de captura de movimiento en el Universo cinematográfico de Marvel (MCU), basada en el supervillano de Marvel Comics del mismo nombre. Thanos es representado como un señor de la guerra alienígena del condenado planeta Titán con una mentalidad maltusiana y una agenda genocida galáctica.</string>
+
+    <string name="habilidad1">Superfuerza</string>
+    <string name="habilidad2">Resistencia</string>
+    <string name="habilidad3">Velocidad</string>
+    <string name="habilidad4">Vuelo</string>
+
+    <string name="titulo_Registro">REGISTRO SUPERHEROES</string>
+    <string name="NomBtnregistro">Registrar</string>
+    <string name="hintNombre">Nombre:</string>
+    <string name="hintDescription">Descripción:</string>
+    <string name="hintHabilidad1">Habilidad1:</string>
+    <string name="hintHabilidad2">Habilidad2:</string>
+    <string name="imgRegistro">img_Registro_Super</string>
+
+
+    <string name="btnMain">Ir a SuperHeroes</string>
+    <string name="btnVehiculos">Ir a Vehiculos</string>
+    <string name="btnForm">ir a Formulario</string>
+    <string name="btnVillanos">Ir a Villanos</string>
+</resources>

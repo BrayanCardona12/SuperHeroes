@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".enemigosActivity2">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/gray_50"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView1"
+                style="@style/titulo_texto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/titulo2" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/button5"
+                    style="@style/btnDark"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:layout_weight="1"
+                    android:onClick="openMain"
+                    android:text="@string/btnMain"
+                    tools:ignore="UsingOnClickInXml" />
+
+
+                <Button
+                    android:id="@+id/button4"
+                    style="@style/btnLight"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="openVehiculos"
+                    android:text="@string/btnVehiculos"
+                    tools:ignore="UsingOnClickInXml" />
+
+                <Button
+                    android:id="@+id/btnMain"
+                    style="@style/btnDark"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="openForm"
+                    android:text="@string/btnForm"
+                    tools:ignore="UsingOnClickInXml" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/Name_Vilano1"
+                android:padding="10sp"
+                app:srcCompat="@drawable/img_small_darkseid" />
+
+            <TextView
+                android:id="@+id/textView8"
+                style="@style/subtitulo_texto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Name_Vilano1" />
+
+            <TextView
+                android:id="@+id/textView9"
+                style="@style/descripcion_texto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Villano_descripcion1"
+                android:justificationMode="inter_word"
+                tools:targetApi="o" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/Name_Villano2"
+                android:padding="10sp"
+                app:srcCompat="@drawable/img_small_kang" />
+
+            <TextView
+                android:id="@+id/textView10"
+                style="@style/subtitulo_texto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Name_Villano2" />
+
+            <TextView
+                android:id="@+id/textView11"
+                style="@style/descripcion_texto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+                android:text="@string/Villano_descripcion2"
+                tools:targetApi="o" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/Name_Villano3"
+                android:padding="10sp"
+                app:srcCompat="@drawable/img_circle_thanos" />
+
+            <TextView
+                android:id="@+id/textView12"
+                style="@style/subtitulo_texto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Name_Villano3" />
+
+            <TextView
+                android:id="@+id/textView13"
+                style="@style/descripcion_texto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+                android:text="@string/Villano_descripcion3"
+                tools:targetApi="o" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
