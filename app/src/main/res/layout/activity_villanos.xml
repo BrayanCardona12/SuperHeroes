@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".EnemigosActivity2">
+    tools:context=".Villanos">
 
     <ScrollView
         android:layout_width="wrap_content"
@@ -86,8 +86,8 @@
                 style="@style/descripcion_texto"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/Villano_descripcion1"
                 android:justificationMode="inter_word"
+                android:text="@string/Villano_descripcion1"
                 tools:targetApi="o" />
 
             <ImageView
@@ -140,5 +140,4 @@
 
         </LinearLayout>
     </ScrollView>
-
 </androidx.constraintlayout.widget.ConstraintLayout>

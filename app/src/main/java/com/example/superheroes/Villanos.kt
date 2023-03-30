@@ -5,16 +5,16 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 
-class EnemigosActivity2 : AppCompatActivity() {
+class Villanos : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_enemigos2)
+        setContentView(R.layout.activity_villanos)
     }
 
     fun openMain(@Suppress("UNUSED_PARAMETER")view: View) {
 
-            val intent = Intent(this, MainActivity::class.java).apply {  }
-            startActivity(intent)
+        val intent = Intent(this, MainActivity::class.java).apply {  }
+        startActivity(intent)
 
     }
 
@@ -27,5 +27,4 @@ class EnemigosActivity2 : AppCompatActivity() {
         val intent = Intent(this, VehiculosActivity3::class.java).apply {  }
         startActivity(intent)
     }
-
 }
